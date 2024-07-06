@@ -1,0 +1,164 @@
+body{
+    background-color: #12130F;
+}
+
+button{
+    border-radius: 16px;
+    background-color:#000000;
+    border: 0px;
+    height: 32px;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+i{
+    color: white;
+    font-size: 12px
+}
+
+b{
+    color: white;
+}
+
+textarea{
+    background-color: #5a5a5a;
+}
+
+input{
+    color: white;
+    background-color: #000000;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 16px;
+    width: 80%;
+}
+
+.post-creation{
+    display: grid;
+    justify-content: center;
+}
+
+.form-control{
+    width: 400px;
+}
+
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 8px 20px;
+    background-color: #000000;
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 0 4px;
+    background-color:#5a5a5a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    color: white;
+}
+
+.action-button{
+    margin: 0 4px;
+    background-color: #e3a220;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 4px 20px;
+}
+
+.post{
+    background-color: #131313;
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin-top: 12px;
+    width: 80ch;
+    display: flex;
+}
+
+.post-first-row{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-right: 1px solid rgb(141, 141, 141);
+    gap: 4px;
+}
+
+.post-profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.navbar-profile-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-second-row{
+    width: 70%;
+    padding-left: 12px;
+    padding-top: 20px
+}
+
+.post-content{
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.post-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.new-post-content{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+
+.post-content{
+    color: white;
+}
+
+.paginator{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+a{
+    color: #e3a220;
+}

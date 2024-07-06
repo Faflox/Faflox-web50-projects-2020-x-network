@@ -1,0 +1,63 @@
+.content{
+    display: flex;
+    border-radius: 28px;
+}
+
+.left-row{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin-right: 16px;
+    margin-top: 16px;
+    color: white;
+    gap: 20px;
+    background-color: #131313;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.right-row{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    background-color: rgb(0, 0, 0);
+}
+
+.profile-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: black;
+    margin: 8px 20px;
+}
+
+.followers-stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.description-edit{
+    display: grid;
+    align-items: center;
+}
+
+.edit-description-textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 140px;
+}
+
+.followers_amonut{
+    display: inline;
+}
